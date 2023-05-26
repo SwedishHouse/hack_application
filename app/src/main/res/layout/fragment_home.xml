@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/h1_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Title"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/h1_title"
+        android:padding="10dp"
+        android:background="@drawable/custom_border">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a efficitur quam. Mauris vel mi sit amet massa scelerisque rutrum. Aliquam erat volutpat. Duis blandit ipsum vel metus placerat, eu mattis nisl lacinia. Curabitur quis elit eu ex placerat sagittis sed eu purus. Morbi lacinia felis ac congue mattis. Mauris in ipsum finibus, gravida turpis sit amet, imperdiet arcu. Cras vitae elit sit amet justo mattis aliquet non quis eros. Fusce ac leo ac risus malesuada sodales. Fusce mattis metus at nunc fermentum, nec consequat mi semper. Etiam consectetur neque ut finibus suscipit.
+
+Sed in nibh gravida, porttitor eros sit amet, commodo turpis. Nunc in dignissim ipsum. In elit arcu, ornare vitae augue quis, tincidunt dignissim leo. Pellentesque interdum sodales mi a ornare. Nam efficitur, mauris in tincidunt consequat, lectus nunc pretium tellus, ut rhoncus orci dolor mollis nisi. Etiam dapibus arcu eu tellus condimentum vulputate vitae at orci. Proin porta luctus arcu sed tincidunt. Curabitur a placerat purus. Integer a vestibulum augue. Proin libero orci, consequat ac blandit ut, tincidunt vitae metus. Aenean laoreet ante enim, eget luctus tortor elementum et. Quisque maximus, ipsum eu rutrum cursus, turpis diam rutrum est, ac sodales ante diam a ipsum. In tincidunt mauris metus, sed iaculis nunc ultricies ut.
+
+Sed posuere lacinia felis, consectetur elementum est lobortis at. Curabitur diam ipsum, ultrices ac urna at, tincidunt molestie sem. Suspendisse pulvinar dapibus lectus nec pellentesque. Donec pretium, nibh elementum condimentum tincidunt, purus nibh scelerisque mauris, in blandit urna velit quis magna. Maecenas at nulla eu felis eleifend posuere fringilla id nisi. Suspendisse potenti. Nulla sed lorem est. Praesent et dui eleifend turpis posuere congue."
+            android:textSize="16sp" />
+    </FrameLayout>
+</RelativeLayout>
